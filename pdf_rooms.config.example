@@ -1,0 +1,11 @@
+settings(font_path=fonts/times.ttf, items_per_page=10)
+font(Times New Roman, px = 14)
+
+text(text="Начальнику управления безопасности", allign=left,offset_left=110)
+
+text(text="Служебная записка", allign=center,offset_down=5)
+text()
+for all_requests:
+    text(text="{date} {month} {year} ({weekday}) с {start_time} до {end_time} ауд. {room} корпуса №{building}", allign=left)
+
+text(text="Разрешить выдачу ключей от аудиторий следующим сотрудникам:", allign=left, offset_down=5)

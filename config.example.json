@@ -1,0 +1,35 @@
+{
+  "base_url": "https://portal.unn.ru/ruzapi/schedule/building/{building_oid}",
+  "buildings": {
+    "2": 145,
+    "6": 147
+  },
+  "allowed_rooms": {
+    "2": [
+      "140",
+      "318",
+      "215"
+    ],
+    "6": [
+      "101",
+      "202",
+      "303"
+    ]
+  },
+  "big_room_min_capacity": 40,
+  "update_hours_moscow": [
+    4,
+    16
+  ],
+  "timezone": "Europe/Moscow",
+  "storage_path": "schedule_data",
+  "schedule_window": {
+    "days_before_today": 1,
+    "days_after_today": 30
+  },
+  "pdf_contact_fields": {
+    "contact_name": "Иван Иванов",
+    "contact_phone": "+7 999 000-00-00"
+  },
+  "telegram_bot_token": ""
+}
